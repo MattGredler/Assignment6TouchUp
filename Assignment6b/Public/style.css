@@ -1,0 +1,105 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    background-image: linear-gradient(to right, #9B0260 , #682B8F);
+    color: white;
+    font-size: 2.5em;
+    padding: .5em;
+    font-weight: lighter;
+}
+
+#addtext {
+    border: 1px solid;
+    border-image: linear-gradient(to right, #9B0260 , #682B8F);
+    border-radius: 16px;
+    /* Not sure why border radius disappears when the linear gradient is applied???
+    Or is it the image-slice? */
+    border-image-slice: 1;
+    margin-left: 8%;
+    background-color: #F5F5F5;
+    font-weight: bold;
+    width: 75vw;
+    margin-top: 5vh;
+    height: 2em;
+    font: 1.75em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inputButton{
+    color: #435696;
+    position: absolute;
+    padding-left: 6px;
+    margin-top: 5.15vh;
+    border: none;
+    background-color: white;
+}
+
+hr{
+    margin-top: 5vh;
+    width: 85vw;
+    border:none;
+    height:1px;
+    background-color: #F5F5F5;
+
+}
+
+.list{
+    border: 1px solid;
+    border-radius: 4px;
+    margin-left: 8%;
+    background-color: #F5F5F5;
+    font-weight: bold;
+    width: 75vw;
+    margin-top: 5vh;
+    height: 2em;
+    font: 1.75em;
+    font-family: 'Roboto', sans-serif;
+    border-color: #F5F5F5;
+    padding-right: 8%;
+}
+
+#remove{
+    position: relative;
+    top: 6px;
+    right: 30px;
+    color: #435696;
+}
+
+/* #list1::after{
+    content: icon="far fa-square";
+} */
+
+@media only screen and (min-width: 600px) {
+
+.list{
+    width: 40vw;
+    margin-left: 0;
+    padding-right: 0;
+    position: relative;
+    left: 30vw;
+
+}
+
+#remove{
+    position: relative;
+    top: 6px;
+    left: 26vw;
+    color: #435696;
+}
+
+#addtext {
+    width: 40vw;
+    margin-left: 0;
+    padding-right: 0;
+    position: relative;
+    left: 30vw;
+}
+.inputButton{
+    position: relative;
+    top: 6px;
+    left: 26vw;
+}
+}
